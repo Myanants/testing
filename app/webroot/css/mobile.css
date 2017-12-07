@@ -1,0 +1,43 @@
+
+/*---------- mobile -----------*/
+@media screen and (max-width: 768px) and (max-width: 992px) {
+	
+	label.auth-btn {
+		float: left;
+		margin: -6px 0px -6px 10px;
+	}
+
+	.header .logo {
+		width: 80%;
+		margin: 0;
+		font-size: 26px;
+		/*padding-top: 0px;*/
+	}
+
+	.logoimg{
+		width: 44%;
+	}
+
+	.login_box {
+	    margin-top: 22%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+/*for login page*/
+	.login_box{
+		margin-top:80px;
+		margin-bottom:40px;
+	}
+	.promo {
+		background: #17baef;
+		color: #fff;
+		padding-top: 110px;
+	}
+	.promo .btns .btn {
+		margin-right: 0px;
+		font-size: 16px;
+		padding: 9px 30px;
+	}
+
+}
